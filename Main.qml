@@ -5,10 +5,10 @@ import QtQuick.Layouts
 import QtQuick.Dialogs
 
 Window {
-    width: 660
+    width: 640
     height: 480
     visible: true
-    title: qsTr("Hello World")
+    title: qsTr("Video Player")
 
     Video {
         id: mediaPlayer
